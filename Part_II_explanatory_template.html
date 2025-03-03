@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>359f9dea868a41e0b11cbe2689f40117</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="part-ii---ford-gobike-system-data" class="cell markdown">
+<h1>Part II - (Ford GoBike System Data)</h1>
+<h2 id="by-mohannad-islam">by (Mohannad Islam)</h2>
+</section>
+<div class="cell markdown">
+<h2 id="investigation-overview">Investigation Overview</h2>
+<blockquote>
+<p><strong>Goals</strong>: This work investigates trends within the Ford
+GoBike System, with the aim of trip duration, rider behavior, and
+significant influencing attributes such as gender, age, and user
+class.</p>
+</blockquote>
+<blockquote>
+<p><strong>Key Insights</strong>: 1- The majority of trips are brief in
+length and distance. 2- Subscribers and customers have shorter trips. 3-
+Few gender differences between trip duration are present. 4- The age
+factor barely affects trip behavior. 5- Weak relations between numeric
+attributes indicate that environmental factors affect the trip duration
+and distance.</p>
+</blockquote>
+<h2 id="dataset-overview-and-executive-summary">Dataset Overview and
+Executive Summary</h2>
+<blockquote>
+<p>Ford GoBike is the Bay Area's bike-sharing system. Bay Area Bike
+Share was launched in 2013 as a regional test program, with 700 bikes
+and 70 stations in San Francisco and San Jose. Once expanded, Ford
+GoBike will have 7,000 bikes throughout San Francisco, the East Bay, and
+San Jose.</p>
+</blockquote>
+<blockquote>
+<p>Ford GoBike, like other bike share systems, comprises of a fleet of
+specifically constructed, sturdy, and durable bikes that are docked at a
+network of stations across the city. The bikes may be unlocked at one
+station and returned to any other in the system, making them perfect for
+one-way journeys. People utilize bike sharing to get to work or school,
+run errands, attend appointments or social gatherings, and more. It's a
+fun, easy, and economical way to go around.</p>
+</blockquote>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># import all packages and set plots to be embedded inline</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> jupyterthemes <span class="im">import</span> jtplot</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>jtplot.style(theme<span class="op">=</span><span class="st">&#39;onedork&#39;</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> glob</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> datetime </span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># suppress warnings from final output</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>warnings.simplefilter(<span class="st">&quot;ignore&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># load in the dataset into a pandas dataframe</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>df_cleaned <span class="op">=</span> pd.read_csv(<span class="vs">r&quot;C:\Users\PC\Desktop\Code\Communicate Data Findings\project\fordgo_master_clean.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>df_cleaned.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>duration_sec</th>
+      <th>start_time</th>
+      <th>end_time</th>
+      <th>start_station_id</th>
+      <th>start_station_name</th>
+      <th>start_station_latitude</th>
+      <th>start_station_longitude</th>
+      <th>end_station_id</th>
+      <th>end_station_name</th>
+      <th>end_station_latitude</th>
+      <th>...</th>
+      <th>member_gender</th>
+      <th>bike_share_for_all_trip</th>
+      <th>member_age</th>
+      <th>start_time_month</th>
+      <th>start_time_month_num</th>
+      <th>start_time_weekday</th>
+      <th>start_time_hour</th>
+      <th>end_time_hour</th>
+      <th>duration_min</th>
+      <th>distance_km</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>52185</td>
+      <td>2019-02-28 17:32:10.145</td>
+      <td>2019-03-01 08:01:55.975</td>
+      <td>21.0</td>
+      <td>Montgomery St BART Station (Market St at 2nd St)</td>
+      <td>37.789625</td>
+      <td>-122.400811</td>
+      <td>13.0</td>
+      <td>Commercial St at Montgomery St</td>
+      <td>37.794231</td>
+      <td>...</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>41</td>
+      <td>February</td>
+      <td>2</td>
+      <td>Thu</td>
+      <td>17</td>
+      <td>8</td>
+      <td>869</td>
+      <td>0.544709</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>61854</td>
+      <td>2019-02-28 12:13:13.218</td>
+      <td>2019-03-01 05:24:08.146</td>
+      <td>86.0</td>
+      <td>Market St at Dolores St</td>
+      <td>37.769305</td>
+      <td>-122.426826</td>
+      <td>3.0</td>
+      <td>Powell St BART Station (Market St at 4th St)</td>
+      <td>37.786375</td>
+      <td>...</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>53</td>
+      <td>February</td>
+      <td>2</td>
+      <td>Thu</td>
+      <td>12</td>
+      <td>5</td>
+      <td>1030</td>
+      <td>2.704545</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>36490</td>
+      <td>2019-02-28 17:54:26.010</td>
+      <td>2019-03-01 04:02:36.842</td>
+      <td>375.0</td>
+      <td>Grove St at Masonic Ave</td>
+      <td>37.774836</td>
+      <td>-122.446546</td>
+      <td>70.0</td>
+      <td>Central Ave at Fell St</td>
+      <td>37.773311</td>
+      <td>...</td>
+      <td>Other</td>
+      <td>No</td>
+      <td>36</td>
+      <td>February</td>
+      <td>2</td>
+      <td>Thu</td>
+      <td>17</td>
+      <td>4</td>
+      <td>608</td>
+      <td>0.260739</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>1585</td>
+      <td>2019-02-28 23:54:18.549</td>
+      <td>2019-03-01 00:20:44.074</td>
+      <td>7.0</td>
+      <td>Frank H Ogawa Plaza</td>
+      <td>37.804562</td>
+      <td>-122.271738</td>
+      <td>222.0</td>
+      <td>10th Ave at E 15th St</td>
+      <td>37.792714</td>
+      <td>...</td>
+      <td>Male</td>
+      <td>Yes</td>
+      <td>51</td>
+      <td>February</td>
+      <td>2</td>
+      <td>Thu</td>
+      <td>23</td>
+      <td>0</td>
+      <td>26</td>
+      <td>2.409301</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>1793</td>
+      <td>2019-02-28 23:49:58.632</td>
+      <td>2019-03-01 00:19:51.760</td>
+      <td>93.0</td>
+      <td>4th St at Mission Bay Blvd S</td>
+      <td>37.770407</td>
+      <td>-122.391198</td>
+      <td>323.0</td>
+      <td>Broadway at Kearny</td>
+      <td>37.798014</td>
+      <td>...</td>
+      <td>Male</td>
+      <td>No</td>
+      <td>66</td>
+      <td>February</td>
+      <td>2</td>
+      <td>Thu</td>
+      <td>23</td>
+      <td>0</td>
+      <td>29</td>
+      <td>3.332203</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 24 columns</p>
+</div>
+</div>
+</div>
+<section id="ford-gobike-usage-by-hour" class="cell markdown">
+<h2>(Ford GoBike Usage by Hour)</h2>
+<ul>
+<li>The bikes saw the most usage during the morning hours of 8-9am, and
+in the afternoon hours of 5-6pm, which is a typical workday in the
+United States. This furthers the suggestion that the bikes are being
+used primarily for commuters.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Hourly usage of the Ford Go Bike System</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">9</span>, <span class="dv">6</span>))</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> sns.countplot(data<span class="op">=</span>df_cleaned, x<span class="op">=</span><span class="st">&#39;start_time_hour&#39;</span>, color<span class="op">=</span><span class="st">&quot;royalblue&quot;</span>)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Hours&#39;</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Number of Bike Rides&#39;</span>)</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Ford GoBike System Usage by Hour&#39;</span>, fontsize<span class="op">=</span><span class="dv">16</span>, fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>, y<span class="op">=</span><span class="fl">1.05</span>)</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">&#39;y&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1be7cd2917e1430ab3337bf882ebca08/c4f8cf1ba67e5122d4c3aba5daaff066153bb9c9.png" /></p>
+</div>
+</div>
+<section id="gender-distribution-of-bike-riders" class="cell markdown">
+<h2>(Gender Distribution of Bike Riders)</h2>
+<ul>
+<li>This pie chart illustrates the gender distribution of Ford GoBike
+users. The majority (74.6%) are male, while females make up 23.3%, and
+2.1% identify as "Other." The significant male dominance suggests that
+bike-sharing services may be more popular among men.</li>
+<li>Since men form the largest user base, promotions and loyalty
+programs could focus on retaining male users while encouraging more
+female participation.</li>
+<li>'Other' may occur because : - Some users may choose not to disclose
+their gender. - If someone forgot, skipped, or didn’t select a gender
+when signing up, the data might be categorized under "Other".</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>gender_counts <span class="op">=</span> df_cleaned[<span class="st">&#39;member_gender&#39;</span>].value_counts()</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Define colors and explode settings</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># colors = [&#39;lightblue&#39;, &#39;lightcoral&#39;, &#39;lightgreen&#39;]</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>explode <span class="op">=</span> (<span class="fl">0.05</span>, <span class="fl">0.05</span>, <span class="fl">0.05</span>)  <span class="co"># Slightly separate slices for emphasis</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create pie chart</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">6</span>, <span class="dv">6</span>))</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>plt.pie(gender_counts, labels<span class="op">=</span>gender_counts.index, autopct<span class="op">=</span><span class="st">&#39;</span><span class="sc">%1.1f%%</span><span class="st">&#39;</span>,  explode<span class="op">=</span>explode, startangle<span class="op">=</span><span class="dv">140</span>)</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Gender Distribution of Bike Riders&#39;</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1be7cd2917e1430ab3337bf882ebca08/8ab910d1db19efb065401f40c57a30d84e50495b.png" /></p>
+</div>
+</div>
+<section id="trip-duration-vs-distance-gender--age"
+class="cell markdown">
+<h2>(Trip Duration vs. Distance (Gender &amp; Age))</h2>
+<ul>
+<li>The majority of trips are clustered below 10 km and 200 minutes,
+suggesting that users mostly take short rides.</li>
+<li>A few extreme outliers exceed 50 km and 1000+ minutes, indicating
+rare long-distance or extended-duration rides.</li>
+<li>Inverse correlation pattern:
+<ul>
+<li>As distance increases, the duration remains relatively controlled,
+meaning longer trips are more efficient (likely taken at a steady
+pace).</li>
+<li>However, for very short trips, duration varies widely, possibly due
+to pauses, slow speeds, or different trip purposes.</li>
+</ul></li>
+<li>Riders of different age groups seem evenly distributed, meaning age
+does not play a major role in trip efficiency.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>scatter <span class="op">=</span> sns.relplot(</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    data<span class="op">=</span>df_cleaned, </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    x<span class="op">=</span><span class="st">&#39;distance_km&#39;</span>, </span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    y<span class="op">=</span><span class="st">&#39;duration_min&#39;</span>, </span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    hue<span class="op">=</span><span class="st">&#39;member_gender&#39;</span>, </span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>    size<span class="op">=</span><span class="st">&#39;member_age&#39;</span>, </span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>    alpha<span class="op">=</span><span class="fl">0.5</span>,</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>    sizes<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">100</span>),  </span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    height<span class="op">=</span><span class="dv">6</span>, </span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>    aspect<span class="op">=</span><span class="fl">1.5</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>scatter.set_axis_labels(<span class="st">&#39;Distance (km)&#39;</span>, <span class="st">&#39;Duration (min)&#39;</span>)</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>scatter._legend.set_title(<span class="st">&#39;Gender &amp; Age&#39;</span>)</span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>scatter.fig.suptitle(<span class="st">&#39;Trip Duration vs. Distance (Gender &amp; Age)&#39;</span>, fontsize<span class="op">=</span><span class="dv">14</span>, fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>)</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<pre><code>&lt;Figure size 1000x600 with 0 Axes&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1be7cd2917e1430ab3337bf882ebca08/7cfadeeebc47309f8483a7b792b3add4dddb6b32.png" /></p>
+</div>
+</div>
+<section id="ford-gobike-system-trends-by-user-type"
+class="cell markdown">
+<h2>(Ford GoBike System Trends by User Type)</h2>
+<ul>
+<li>The number of bike trips from subscribers is significantly higher
+than from customers on all days of the week.</li>
+<li>Bike usage among subscribers drops significantly on Saturday and
+remains low on Sunday, indicating lower work-related demand.</li>
+<li>Unlike subscribers, customers show relatively steady usage
+throughout the week, with only minor fluctuations.</li>
+</ul>
+</section>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Customer Usage by Weekday vs. Subscriber Usage by Weekday</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">11</span>, <span class="dv">5</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>df_cleaned_user_week <span class="op">=</span> df_cleaned.groupby([<span class="st">&#39;start_time_weekday&#39;</span>, <span class="st">&#39;user_type&#39;</span>]).size().reset_index(name<span class="op">=</span><span class="st">&#39;trip_count&#39;</span>)</span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>weekday <span class="op">=</span> [<span class="st">&#39;Sun&#39;</span>,<span class="st">&#39;Mon&#39;</span>, <span class="st">&#39;Tue&#39;</span>, <span class="st">&#39;Wed&#39;</span>, <span class="st">&#39;Thu&#39;</span>, <span class="st">&#39;Fri&#39;</span>, <span class="st">&#39;Sat&#39;</span>]</span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>sns.pointplot(data<span class="op">=</span>df_cleaned_user_week, x<span class="op">=</span><span class="st">&#39;start_time_weekday&#39;</span>, y<span class="op">=</span><span class="st">&#39;trip_count&#39;</span>, hue<span class="op">=</span><span class="st">&#39;user_type&#39;</span>, </span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>              order<span class="op">=</span>weekday, palette<span class="op">=</span><span class="st">&#39;viridis&#39;</span>, markers<span class="op">=</span><span class="st">&#39;o&#39;</span>, linestyles<span class="op">=</span><span class="st">&#39;-&#39;</span>)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Ford GoBike System Trends by User Type&#39;</span>, fontsize<span class="op">=</span><span class="dv">16</span>, fontweight<span class="op">=</span><span class="st">&#39;bold&#39;</span>, y<span class="op">=</span><span class="fl">1.05</span>)</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Weekdays&#39;</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Number of Bike Trips&#39;</span>)</span>
+<span id="cb8-13"><a href="#cb8-13" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">&#39;y&#39;</span>, linestyle<span class="op">=</span><span class="st">&#39;--&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb8-14"><a href="#cb8-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-15"><a href="#cb8-15" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1be7cd2917e1430ab3337bf882ebca08/5539c91a50d5745cc764f1dc4abbf6107d7b364b.png" /></p>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
